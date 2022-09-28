@@ -1,9 +1,13 @@
-const App=()=> {
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <>
+      <Header />
+      <Banner />
+    </>
   );
-}
+};
 
 export default App;

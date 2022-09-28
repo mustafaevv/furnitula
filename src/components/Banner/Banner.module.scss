@@ -1,0 +1,64 @@
+.banner {
+  position: relative;
+  background: #345655;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__left {
+    width: 50%;
+  }
+
+  &__title {
+    max-width: 40vh;
+    font-weight: 500;
+    line-height: 1.3;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: .5em;
+  }
+
+  &__text {
+    font-family: 'Nunito Sans';
+    max-width: 43vh;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #FFFFFF;
+  }
+
+  &__controller {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    gap: 3em;
+  }
+
+  &__btn {
+    border: 1px solid #EAEFBD;
+    border-radius: 36px;
+    background: none;
+    padding: 0 25px;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+
+    &:nth-child(1) {
+      background: #EAEFBD;
+      color: #345655;
+    }
+  }
+
+  &__right {
+    width: 50%;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
