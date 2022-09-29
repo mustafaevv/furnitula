@@ -1,7 +1,6 @@
 import React from "react";
 
 import Container from "../../layout/Container";
-
 import banner from "../../images/banner.png";
 
 import classes from "./Banner.module.scss";
